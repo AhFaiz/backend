@@ -1,0 +1,15 @@
+#
+
+print("=== Program 1 (Loop Trough The Tuple) ===")
+
+names = ("RANDI", "PACE", "WISNU")
+for x in names:
+  print(x)
+
+#=========================================
+
+print("\n=== Program 2 (Lopp Trough The Index Number) ===")
+
+names = ("RANDI", "PACE", "WISNU")
+for i in range(len(names)):
+  print(names[i])
