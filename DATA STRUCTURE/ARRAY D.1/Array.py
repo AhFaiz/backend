@@ -10,15 +10,15 @@
 #- akses data cukup dengan 1 index
 
 
-cars = ["Ford", "Volvo", "BMW"]
+item = ["MOUSE", "KEYBOARD", "IPAD"]
 
-x = cars[0] #access the index 0 from the cars
+x = item[0] #access the index 0 from the cars
 print(x)
 
-cars[0] = "Ferrari" #modify the index item 0
-print(cars)
+item[0] = "LAPTOP" #modify the index item 0
+print(item)
 
-x = len(cars) #to know how much the item in the cars
+x = len(item) #to know how much the item in the cars
 print(x)
 
 
